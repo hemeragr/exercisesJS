@@ -188,7 +188,6 @@ randomArray.forEach(function(element) {
 });
 
 
-   const  element = 0;
 
   randomArray.forEach(function(element) {
   console.log(element, isValidText(element));
@@ -201,7 +200,6 @@ for (i = 0; i < randomArray.length; i++) {
   console.log(randomArray[i], isValidTextArrow(randomArray[i]));
 }; 
 
-   const  elements = 0;
 
   randomArray.forEach(function(elements) {
   console.log(elements, isValidTextArrow(elements));
