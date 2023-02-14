@@ -148,7 +148,7 @@ const isGreatherThan10Arrow = (num) => {
 };
 
 const isValidIdArrow = (num) => {
-  return isNumberArrow(num) && isGreatherThan10(num);
+  return isNumberArrow(num) && isGreatherThan10Arrow(num);
 };
 
 const createTaskArrow = (text, id) => {
@@ -182,6 +182,18 @@ const createTaskWithValidationArrow = (text, id) => {
 for (i = 0; i < randomArray.length; i++) {
   console.log(randomArray[i], isValidText(randomArray[i]));
 }; 
+
+randomArray.forEach(function(element) {
+  isValidTextArrow(element);
+});
+
+
+   const  element = 0;
+
+  randomArray.forEach(function(element) {
+  console.log(element, isValidText(element));
+});
+
   
 // Recorre el array que está en la variable randomArray y te escriba en consola true si es el texto es válido utilizando isValidTextArrow
 
@@ -189,6 +201,11 @@ for (i = 0; i < randomArray.length; i++) {
   console.log(randomArray[i], isValidTextArrow(randomArray[i]));
 }; 
 
+   const  elements = 0;
+
+  randomArray.forEach(function(elements) {
+  console.log(elements, isValidTextArrow(elements));
+});
 
 // Crea una función que se llame generateRandomTasks con un parámetro, que te cree un array con el número de tasks. 
 
